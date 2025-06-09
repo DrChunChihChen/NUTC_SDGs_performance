@@ -55,7 +55,7 @@ def load_data(data_type, year):
     """根據指定的資料類型與學年度載入所有 JSON 資料檔案，並回傳為 pandas DataFrames。"""
     # Define root paths
     relative_root = "data"
-    hardcoded_root = r"C:\Users\Elvischen\OneDrive - 國立臺中科技大學\桌面\SDGs關鍵字案子\0609"
+    hardcoded_root = r"file/112"
     root_path = hardcoded_root if os.path.isdir(hardcoded_root) else relative_root
 
     # Initialize data variables
